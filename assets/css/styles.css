@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+header {
+  padding: 30px;
+  background-color: aquamarine;
+  border-bottom: 15px solid rgb(3, 20, 116);
+}
+
+h1:hover {
+  color: white;
+}
+
+h1 {
+  padding: 20px 0;
+  color: rgb(3, 20, 116);
+  font-size: 250%;
+}
+
+h2 {
+  color: rgb(3, 20, 116);
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+li {
+  padding: 0 10px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(3, 20, 116);
+}
+
+/* figure {
+  display: flex;
+} */
+
+/* h4 {
+  text-align: center;
+} */
+
+a:hover {
+  color: white;
+}
+
+#about-me {
+  display: flex;
+  /* flex-direction: column; */
+  /* padding-top: 20px; */
+  justify-content: space-around;
+  /* min-height: 100%; */
+  padding: 50px 0;
+  border-bottom: 15px solid rgb(3, 20, 116);
+}
+
+#my-work {
+  display: flex;
+  border-bottom: 15px solid rgb(3, 20, 116);
+  justify-content: space-around;
+  padding: 50px 0;
+}
+
+.photo {
+  width: 8%;
+  border-radius: 50%;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-me {
+  max-width: 50%;
+  /* max-height: 50%; */
+}
+
+.about-me-header {
+  align-self: center;
+  border-left: 5px solid rgb(3, 20, 116);
+}
+
+.my-work-header {
+  /* display: flex; */
+  border-left: 5px solid rgb(3, 20, 116);
+  /* justify-content: center; */
+  /* align-items: center; */
+  align-self: center;
+}
+
+.my-work {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 50%;
+  /* align-self: center; */
+}
+
+.project-1-img {
+  width: 100%;
+}
+
+.seo-img {
+  width: 50%;
+  padding: 30px 10px;
+}
+
+.lightbulb-img {
+  width: 50%;
+  padding: 30px 10px;
+}
+
+/* .image-caption {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  background-color: rgb(3, 20, 116);
+  color: white;
+  bottom: 20px;
+  right: 20px;
+} */
