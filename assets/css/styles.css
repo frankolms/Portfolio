@@ -29,7 +29,7 @@ h2 {
   color: rgb(3, 20, 116);
 }
 
-ul {
+.nav {
   list-style: none;
   display: flex;
   justify-content: space-between;
@@ -50,24 +50,13 @@ figure {
   position: relative;
 }
 
-figcaption {
-  position: absolute;
-}
-
-/* h4 {
-  text-align: center;
-} */
-
-a:hover {
+.nav-links:hover {
   color: white;
 }
 
 #about-me {
   display: flex;
-  /* flex-direction: column; */
-  /* padding-top: 20px; */
   justify-content: space-around;
-  /* min-height: 100%; */
   padding: 50px 0;
   border-bottom: 15px solid rgb(3, 20, 116);
 }
@@ -76,6 +65,13 @@ a:hover {
   display: flex;
   border-bottom: 15px solid rgb(3, 20, 116);
   justify-content: space-around;
+  padding: 50px 0;
+}
+
+#contact-me {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
   padding: 50px 0;
 }
 
@@ -92,7 +88,6 @@ a:hover {
 
 .about-me {
   max-width: 50%;
-  /* max-height: 50%; */
 }
 
 .about-me-header {
@@ -101,10 +96,7 @@ a:hover {
 }
 
 .my-work-header {
-  /* display: flex; */
   border-left: 5px solid rgb(3, 20, 116);
-  /* justify-content: center; */
-  /* align-items: center; */
   align-self: center;
 }
 
@@ -114,29 +106,67 @@ a:hover {
   flex-wrap: wrap;
   justify-content: space-around;
   width: 50%;
-  /* align-self: center; */
 }
 
 .project-1-img {
   width: 100%;
+  border: 5px solid rgb(3, 20, 116);
+}
+
+.project-1-caption {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  background-color: rgb(3, 20, 116);
+  color: white;
+  padding: 5px 5px 0 0;
 }
 
 .seo-img {
-  width: 50%;
-  padding: 30px 10px;
+  width: 100%;
+  margin: 10px 0 0 0;
+  border: 5px solid rgb(3, 20, 116);
+}
+
+.seo-caption {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  background-color: rgb(3, 20, 116);
+  color: white;
+  padding: 5px 5px 0 0;
 }
 
 .lightbulb-img {
-  width: 50%;
-  padding: 30px 10px;
+  width: 100%;
+  margin: 10px 0 0 10px;
+  border: 5px solid rgb(3, 20, 116);
 }
 
-/* .image-caption {
+.lightbulb-caption {
   position: absolute;
-  width: 200px;
-  height: 50px;
+  bottom: 5px;
+  left: 15px;
   background-color: rgb(3, 20, 116);
   color: white;
-  bottom: 20px;
-  right: 20px;
-} */
+  padding: 5px 5px 0 0;
+}
+
+.figure-row-2 {
+  width: 50%;
+}
+
+.contacts {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+
+.contact-me-header {
+  align-self: center;
+  padding-bottom: 30px;
+}
+
+.contact-links:hover {
+  color: red;
+}

@@ -17,10 +17,10 @@
         <h1>Frank Olmsted</h1>
       </section>
       <nav>
-        <ul>
-          <li><a href="#about-me">About Me</a></li>
-          <li><a href="#my-work">My Work</a></li>
-          <li><a href="#contact-me">Contact Me</a></li>
+        <ul class="nav">
+          <li><a class="nav-links" href="#about-me">About Me</a></li>
+          <li><a class="nav-links" href="#my-work">My Work</a></li>
+          <li><a class="nav-links" href="#contact-me">Contact Me</a></li>
         </ul>
       </nav>
     </header>
@@ -28,66 +28,54 @@
       <h2 class="about-me-header">About Me</h2>
       <div class="about-me">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Pellentesque dignissim enim sit amet venenatis urna cursus eget nunc.
-          Curabitur vitae nunc sed velit dignissim sodales ut eu. Ut faucibus
-          pulvinar elementum integer enim. Urna molestie at elementum eu
-          facilisis sed odio morbi quis. Vitae purus faucibus ornare
-          suspendisse. Id nibh tortor id aliquet. Maecenas pharetra convallis
-          posuere morbi leo. Sed vulputate mi sit amet mauris commodo. Euismod
-          quis viverra nibh cras pulvinar mattis. Volutpat lacus laoreet non
-          curabitur gravida. Morbi tincidunt augue interdum velit euismod in
-          pellentesque massa placerat. Donec massa sapien faucibus et molestie
-          ac feugiat. Lorem mollis aliquam ut porttitor leo. Semper auctor neque
-          vitae tempus quam pellentesque nec nam. Vel eros donec ac odio tempor.
-          Augue mauris augue neque gravida in fermentum et sollicitudin ac. Nunc
-          non blandit massa enim nec dui nunc mattis. Sapien et ligula
-          ullamcorper malesuada proin libero. Vehicula ipsum a arcu cursus vitae
-          congue mauris rhoncus. Turpis egestas integer eget aliquet nibh
-          praesent tristique magna. Etiam erat velit scelerisque in dictum non
-          consectetur a erat. Amet porttitor eget dolor morbi non arcu. Maecenas
-          pharetra convallis posuere morbi leo urna molestie. Nibh tortor id
-          aliquet lectus proin nibh nisl condimentum id. Elit eget gravida cum
-          sociis natoque penatibus et magnis. Eu feugiat pretium nibh ipsum
-          consequat nisl vel. Lacus sed viverra tellus in. Volutpat sed cras
-          ornare arcu. Lectus quam id leo in vitae. Placerat in egestas erat
-          imperdiet. Suspendisse in est ante in nibh mauris cursus mattis
-          molestie. Cursus eget nunc scelerisque viverra mauris in aliquam sem.
-          Orci eu lobortis elementum nibh tellus. Ullamcorper a lacus vestibulum
-          sed arcu non.
+          My name is Frank Olmsted and I am a (future) web developer! I am currently enrolled in the UCONN Coding Bootcamp and work fulltime at an EMS billing software company. I am hoping that this bootcamp will equip me with the skills to either move into a developer roll at my current company, or help me find a developer position at another company and kickstart a career in web or software development.
+        </p><br>
+        <p>
+          I currently have one project that shows off my ability to refactor HTML and substitute less descriptive elements for more semantic HTML elements. I have many more projects in the works coming out in the next few months so stay tuned!
         </p>
       </div>
     </section>
     <section id="my-work">
-      <h2 class="my-work-header">Work</h2>
+      <h2 class="my-work-header">My Work</h2>
       <div class="my-work">
+        <a href="https://frankolms.github.io/module-1-challenge/" target="_blank">
         <figure>
           <img
             class="project-1-img"
             src="./assets/digital-marketing-meeting.jpg"
           />
-          <figcaption>
+          <figcaption class="project-1-caption">
             <h4>Horiseon</h4>
             <p>HTML Refactoring</p>
           </figcaption>
         </figure>
-        <!-- <div class="image-caption">
-          <h4>Horiseon</h4>
-        </div> -->
-        <figure>
-          <img class="seo-img" src="./assets/pexels-pixabay-270637.jpg" />
-          <figcaption>
+        
+        <figure class="figure-row-2">
+          <a href="#"><img class="seo-img" src="./assets/pexels-pixabay-270637.jpg" /></a>
+            <figcaption class="seo-caption">
+              <h4>Coming Soon!</h4>
+              <p>TBA</p>
+            </figcaption>
+          </figure>
+        <figure class="figure-row-2">
+          <img
+            class="lightbulb-img"
+            src="./assets/diego-ph-fIq0tET6llw-unsplash.jpg"
+          />
+          <figcaption class="lightbulb-caption">
             <h4>Coming Soon!</h4>
             <p>TBA</p>
           </figcaption>
         </figure>
-        <img
-          class="lightbulb-img"
-          src="./assets/diego-ph-fIq0tET6llw-unsplash.jpg"
-        />
       </div>
     </section>
-    <section id="contact-me"></section>
+    <footer id="contact-me">
+      <h2 class="contact-me-header">Contact Me</h2>
+      <ul class="contacts">
+        <li><a class="contact-links" href="mailto:frankolms@gmail.com" target="_blank">Email</a></li>
+        <li><a  class="contact-links" href="#">Twitter</a></li>
+        <li><a class="contact-links" href="https://github.com/frankolms" target="_blank">Github</a></li>
+      </ul>
+    </footer>
   </body>
 </html>
