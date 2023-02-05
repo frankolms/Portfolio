@@ -126,6 +126,7 @@ figure {
   width: 100%;
   margin: 10px 0 0 0;
   border: 5px solid rgb(3, 20, 116);
+  min-height: 97.5%;
 }
 
 .seo-caption {
@@ -134,7 +135,6 @@ figure {
   left: 5px;
   background-color: rgb(3, 20, 116);
   color: white;
-  padding: 5px 5px 0 0;
 }
 
 .lightbulb-img {
@@ -149,11 +149,17 @@ figure {
   left: 15px;
   background-color: rgb(3, 20, 116);
   color: white;
-  padding: 5px 5px 0 0;
+  padding-left: 10px;
 }
 
-.figure-row-2 {
+.figure-seo {
   width: 50%;
+  margin-top: 10px;
+}
+
+.figure-lightbulb {
+  width: 50%;
+  margin-top: 10px;
 }
 
 .contacts {
@@ -168,5 +174,61 @@ figure {
 }
 
 .contact-links:hover {
-  color: red;
+  color: lightblue;
+}
+
+@media only screen and (max-width: 600px) {
+  .flex-container {
+    flex-direction: row;
+  }
+
+  h1 {
+    padding-left: 20px;
+  }
+
+  #about-me {
+    flex-direction: column;
+    padding: 20px 0;
+    align-items: center;
+  }
+
+  .about-me-header {
+    border: none;
+    padding-bottom: 20px;
+  }
+
+  .photo {
+    width: 20%;
+  }
+
+  #my-work {
+    flex-direction: column;
+    padding: 20px 0;
+    align-items: center;
+  }
+
+  .my-work-header {
+    border: none;
+    padding-bottom: 20px;
+  }
+
+  .figure-seo {
+    width: 100%;
+  }
+
+  .figure-lightbulb {
+    width: 100%;
+  }
+
+  .lightbulb-img {
+    margin-left: 0;
+  }
+
+  .seo-caption {
+    bottom: 0px;
+  }
+
+  .lightbulb-caption {
+    left: 0;
+  }
 }
