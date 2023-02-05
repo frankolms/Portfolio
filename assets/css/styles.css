@@ -45,9 +45,14 @@ a {
   color: rgb(3, 20, 116);
 }
 
-/* figure {
+figure {
   display: flex;
-} */
+  position: relative;
+}
+
+figcaption {
+  position: absolute;
+}
 
 /* h4 {
   text-align: center;
