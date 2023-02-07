@@ -7,3 +7,5 @@ In the About Me section, I give a brief description about myself and my aspirati
 In the My Work section, I added linked images. The top image links to my deployed project where I refactored the HTML to be more semantic. The other two images are placeholder images for future projects.
 
 The Contact Me section has three links that each link to my email, twitter, and GitHub profile.
+
+[Deployed portfolio](https://frankolms.github.io/Portfolio/)
